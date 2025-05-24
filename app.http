@@ -1,0 +1,42 @@
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+
+    "username": "Ramesh",
+    "password": "ramesh",
+    "name": "Ramesh Kumar",
+    "gender": "Male",
+    "location": "vizag"
+}
+###
+
+POST  http://localhost:3000/login/users/
+Content-Type: application/json
+
+
+{
+
+     "username": "Adil007",
+    "password": "adil",
+    "name": "Adil",
+    "gender": "Male",
+    "location": "vizag"
+}
+###
+
+PUT http://localhost:3000/login/updateuser
+Content-Type: application/json
+
+{
+    "username": "Adil007",
+    "password": "adil",
+    "name": "Adil",
+    "gender": "Male",
+    "location": "vizag"
+
+
+}
+###
+
+GET http://localhost:3000/login/user
